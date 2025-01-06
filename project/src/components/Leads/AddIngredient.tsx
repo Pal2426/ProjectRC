@@ -8,21 +8,20 @@ interface ItemsList {
   range: number;
   label: string;
 }
-const categoryData: Record<string, ItemsList[]> = {
+export const categoryData: Record<string, ItemsList[]> = {
   Proteins: [
-    { name: "x", range: 80, label: "High" },
-    { name: "y", range: 60, label: "Average" },
-    { name: "z", range: 30, label: "Low" },
+    { name: "Amino Acids", range: 100, label: "High" },
+    { name: "Proteins", range: 60, label: "Average" },
+    
   ],
   Vitamins: [
-    { name: "Vitamin A", range: 80, label: "High" },
+    { name: "Vitamin A", range: 100, label: "High" },
     { name: "Vitamin B", range: 60, label: "Average" },
-    { name: "Vitamin C", range: 30, label: "Low" },
+    { name: "Vitamin C", range: 17, label: "Low" },
   ],
   Herbs: [
     { name: "Herb 1", range: 60, label: "Average" },
-    { name: "Herb 2", range: 80, label: "High" },
-    { name: "Herb 3", range: 30, label: "Low" },
+
   ],
   "Dietery Fibre": [
     { name: "x", range: 60, label: "Average" },

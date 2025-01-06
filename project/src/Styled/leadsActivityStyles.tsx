@@ -200,7 +200,7 @@ export const Line1 = styled.div`
   position: absolute;
   top: 260px;
   left: 355.6px;
-  background-color: red;
+  // background-color: red;
   gap: 0px;
   border: 0.6px 0px 0px 0px;
   opacity: 0px;
